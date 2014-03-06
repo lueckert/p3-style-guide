@@ -1,0 +1,121 @@
+/* Set Your Own Margin & Padding */
+body {
+	background: url(../img/bg.png);
+}
+
+header {
+	background: rgba(247,66,60, 0.9);
+	position: fixed;
+	font-size: 2em;
+	padding: 5%;
+	padding-right: 75.2%;
+	border-radius: 15px;
+
+}
+
+header a {
+	color: white;
+}
+
+header a:hover {
+	color: #00AEEF;
+
+}
+
+.logo {
+	padding-top: 20%;
+
+}
+article {
+	background: white;
+	border-radius: 15px;
+
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+ 
+}
+
+h2 {
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+h3 {
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 30px;
+}
+
+footer {
+	margin: 20px 30px;
+	padding-bottom: 5%;
+
+}
+
+
+.color-1 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: #FFCA4A;
+}
+.color-2 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: rgb(247,66,60);
+}
+.color-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: #00AEEF;
+}
+.pattern-1 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: url(../img/bg.png);
+}
+
+
+a {
+	color: rgb(247,66,60);
+	text-decoration: none;
+}
+
+a:hover {
+	background: rgb(247,66,60);
+	color: white;
+	border-radius: 15px;
+	margin: 5px;
+	padding: 5px;
+
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
